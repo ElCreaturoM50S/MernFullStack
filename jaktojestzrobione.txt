@@ -1,0 +1,4 @@
+npm create vite remember -- --template react
+cd .\remember\
+npm i
+npm run dev
