@@ -1,10 +1,16 @@
+****client****
+cd .\client\
 npm create vite remember -- --template react
-cd .\remember\
 npm i
 npm run dev
 
-server
+****server****
+cd .\server\
 npm init --yes
+npm i express
+npm i mongoose
+dodaj server.js do server
 
-main
+****main****
 npm init --yes
+npm i nodemon concurrently
